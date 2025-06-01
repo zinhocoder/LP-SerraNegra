@@ -380,10 +380,10 @@ export default function Page() {
                     <ul className="space-y-5">
                       <li className="flex items-start gap-4">
                         <div className="h-8 w-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <span className="text-green-700 font-semibold text-lg">10</span>
+                          <span className="text-green-700 font-semibold text-lg">15</span>
                         </div>
                         <div>
-                          <span className="font-medium text-xl">10 minutos de Serra Negra</span>
+                          <span className="font-medium text-xl">15 minutos de Serra Negra</span>
                           <p className="text-gray-600">Cidade conhecida pelo turismo de compras e eventos</p>
                         </div>
                       </li>
