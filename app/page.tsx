@@ -29,13 +29,13 @@ export default function Page() {
           </nav>
           <Button asChild className="bg-green-700 hover:bg-green-800 text-white">
             <a
-              href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+              href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
               className="flex gap-2 items-center"
               target="_blank"
               rel="noreferrer"
             >
               <Phone className="h-4 w-4" />
-              <span>(11) 99199-8980</span>
+              <span>(11) 99901-8978</span>
             </a>
           </Button>
         </div>
@@ -61,12 +61,12 @@ export default function Page() {
                 </h1>
                 <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-shadow font-light">
                   Uma exclusiva chácara com 5.000m² de área total e 1.000m² de área construída em localização
-                  privilegiada, perfeita para residência ou empreendimento
+                  privilegiada, para residência, veraneio ou empreendimento
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" asChild className="bg-green-700 hover:bg-green-800 text-white hover-scale">
                     <a
-                      href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                      href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -79,7 +79,7 @@ export default function Page() {
                     asChild
                     className="bg-white/20 border-white text-white hover:bg-white/20 hover:text-white hover-scale"
                   >
-                    <a href="https://wa.me/5511991998980" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/5511999018978" target="_blank" rel="noreferrer">
                       Conversar no WhatsApp
                     </a>
                   </Button>
@@ -97,20 +97,20 @@ export default function Page() {
                 <Home className="h-12 w-12 text-green-700 mb-4" />
                 <h3 className="text-2xl font-semibold mb-3">Arquitetura Exclusiva</h3>
                 <p className="text-gray-600">
-                  Acabamento em alto padrão com ardósia, lareira em pedras e detalhes personalizados
+                  Pé direito alto, ardósia, lareira em pedras, portas entalhadas, grades trabalhadas e detalhes personalizados
                 </p>
               </div>
               <div className="flex flex-col items-center text-center p-8 border-b md:border-b-0 md:border-r border-gray-200 hover-scale">
                 <MapPin className="h-12 w-12 text-green-700 mb-4" />
                 <h3 className="text-2xl font-semibold mb-3">Localização Privilegiada</h3>
                 <p className="text-gray-600">
-                  A 10 minutos de Serra Negra e próxima a diversas cidades turísticas da região
+                  A 15 minutos de Serra Negra e próxima a diversas cidades turísticas da região
                 </p>
               </div>
               <div className="flex flex-col items-center text-center p-8 hover-scale">
                 <Palmtree className="h-12 w-12 text-green-700 mb-4" />
                 <h3 className="text-2xl font-semibold mb-3">Área de Lazer Completa</h3>
-                <p className="text-gray-600">Piscina semi-olímpica, churrasqueira, salão de jogos e ampla área verde</p>
+                <p className="text-gray-600">Piscina 15m×8m, espaço gourmet com churrasqueira, salão de jogos e ampla área verde</p>
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function Page() {
                     className="bg-green-700 hover:bg-green-800 text-white text-lg px-8 py-6 h-auto hover-scale"
                   >
                     <a
-                      href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                      href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -269,7 +269,55 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group md:col-span-2 lg:col-span-1 hover-scale">
+              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group hover-scale">
+                <Image
+                  src="/images/piscina-area-lazer.jpg"
+                  alt="Área de lazer completa com piscina e estrutura coberta"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-6 text-white">
+                    <h3 className="font-semibold text-2xl">Área de Lazer Completa</h3>
+                    <p className="text-lg">Espaço perfeito para relaxamento e entretenimento</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group hover-scale">
+                <Image
+                  src="/images/sala-lareira.jpg"
+                  alt="Sala principal com lareira de pedra"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-6 text-white">
+                    <h3 className="font-semibold text-2xl">Sala com Lareira</h3>
+                    <p className="text-lg">Ambiente aconchegante com lareira de pedra</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group hover-scale">
+                <Image
+                  src="/images/varanda-arcos.jpg"
+                  alt="Varanda com arcos e arquitetura em tijolo"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <Image
+                  src="/images/entrada-paisagem.jpg"
+                  alt="Vista da entrada com paisagem rural"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-6 text-white">
+                    <h3 className="font-semibold text-2xl">Entrada da Propriedade</h3>
+                    <p className="text-lg">Vista privilegiada da paisagem rural</p>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group hover-scale">
                 <Image
                   src="/images/chacara-piscina-2.png"
                   alt="Vista da piscina com montanhas ao fundo"
@@ -283,7 +331,7 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group md:col-span-2 hover-scale">
+              <div className="relative h-96 rounded-xl overflow-hidden shadow-lg group md:col-span-2 lg:col-span-1 hover-scale">
                 <Image
                   src="/images/chacara-dia-frente.png"
                   alt="Vista panorâmica da propriedade"
@@ -296,7 +344,7 @@ export default function Page() {
                     className="bg-white/20 border-white text-white hover:bg-white/20 hover:text-white text-lg px-8 py-6 h-auto"
                   >
                     <a
-                      href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20ver%20mais%20fotos%20da%20Chácara%20em%20Serra%20Negra"
+                      href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20ver%20mais%20fotos%20da%20Chácara%20em%20Serra%20Negra"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -394,7 +442,7 @@ export default function Page() {
                     </p>
                     <Button className="mt-8 bg-green-700 hover:bg-green-800 text-white text-lg px-8 py-6 h-auto hover-scale">
                       <a
-                        href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20localização%20da%20Chácara%20em%20Serra%20Negra"
+                        href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20localização%20da%20Chácara%20em%20Serra%20Negra"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -402,6 +450,74 @@ export default function Page() {
                       </a>
                     </Button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Outras Informações */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center mb-16">
+              <Badge className="bg-green-100 text-green-800 hover:bg-green-200 mb-4">Outras Informações</Badge>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Comodidades e Vantagens da Região</h2>
+              <p className="text-gray-600 text-xl">
+                Descubra todos os benefícios que tornam esta propriedade ainda mais especial
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl hover-scale">
+                <Image
+                  src="/images/entrada-paisagem.jpg"
+                  alt="Vista da entrada da propriedade com paisagem rural"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div>
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-3xl font-semibold mb-6 flex items-center gap-3">
+                      <span className="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center">
+                        <MapPin className="h-5 w-5 text-green-700" />
+                      </span>
+                      Facilidades de Acesso
+                    </h3>
+                    <ul className="space-y-4">
+                      <li className="flex items-start gap-3">
+                        <Check className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-lg">Fácil acesso por estrada principal pavimentada</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-lg">Local tranquilo e seguro, ideal para descanso</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-lg">Proximidade com restaurantes e comércio local</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
+                        <span className="text-lg">Acesso rápido a outras cidades turísticas da região</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="mt-10">
+                  <Button
+                    asChild
+                    className="bg-green-700 hover:bg-green-800 text-white text-lg px-8 py-6 h-auto hover-scale"
+                  >
+                    <a
+                      href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Saiba Mais Sobre a Localização
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -430,7 +546,7 @@ export default function Page() {
                   lazer completa para momentos inesquecíveis.
                 </p>
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
                   className="text-green-700 font-medium flex items-center gap-1 hover:underline text-lg"
                   target="_blank"
                   rel="noreferrer"
@@ -448,7 +564,7 @@ export default function Page() {
                   já estabelecidas para receber hóspedes exigentes.
                 </p>
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
                   className="text-green-700 font-medium flex items-center gap-1 hover:underline text-lg"
                   target="_blank"
                   rel="noreferrer"
@@ -466,7 +582,7 @@ export default function Page() {
                   meio à natureza e clima agradável da região.
                 </p>
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
                   className="text-green-700 font-medium flex items-center gap-1 hover:underline text-lg"
                   target="_blank"
                   rel="noreferrer"
@@ -484,7 +600,7 @@ export default function Page() {
                   sofisticado, com capacidade para grandes grupos.
                 </p>
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20as%20possibilidades%20de%20uso%20da%20Chácara%20em%20Serra%20Negra"
                   className="text-green-700 font-medium flex items-center gap-1 hover:underline text-lg"
                   target="_blank"
                   rel="noreferrer"
@@ -525,7 +641,7 @@ export default function Page() {
                       className="bg-green-700 hover:bg-green-800 text-white text-lg px-8 py-6 h-auto hover-scale"
                     >
                       <a
-                        href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                        href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -576,13 +692,13 @@ export default function Page() {
                 className="bg-white text-green-700 hover:bg-green-50 border-white text-lg px-8 py-6 h-auto hover-scale"
               >
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                   className="flex items-center gap-2"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>(11) 99199-8980</span>
+                  <span>(11) 99901-8978</span>
                 </a>
               </Button>
               <Button
@@ -591,7 +707,7 @@ export default function Page() {
                 className="bg-green-800 hover:bg-green-900 border border-green-600 text-white text-lg px-8 py-6 h-auto hover-scale"
               >
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                   target="_blank"
                   className="flex items-center gap-2"
                   rel="noreferrer"
@@ -670,7 +786,7 @@ export default function Page() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <Phone className="h-6 w-6 text-green-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-lg">(11) 99199-8980</span>
+                  <span className="text-lg">(11) 99901-8978</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="h-6 w-6 text-green-700 mt-0.5 flex-shrink-0" />
@@ -691,13 +807,13 @@ export default function Page() {
                 className="text-green-700 hover:text-green-800 hover:bg-green-50"
               >
                 <a
-                  href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+                  href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
                   className="flex items-center gap-2"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Phone className="h-5 w-5" />
-                  <span className="text-lg">(11) 99199-8980</span>
+                  <span className="text-lg">(11) 99901-8978</span>
                 </a>
               </Button>
             </div>
@@ -707,7 +823,7 @@ export default function Page() {
 
       {/* Botão WhatsApp Flutuante */}
       <a
-        href="https://wa.me/5511991998980?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
+        href="https://wa.me/5511999018978?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Chácara%20em%20Serra%20Negra"
         target="_blank"
         className="fixed bottom-6 right-6 btn-whatsapp p-3 rounded-full shadow-lg z-50 flex items-center justify-center transition-all hover:scale-110"
         aria-label="Contato via WhatsApp"
